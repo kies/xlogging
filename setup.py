@@ -4,7 +4,7 @@ setup(
     name='xlogging',
     version='0.1',
     description='logging toolkit',
-    author='zhangruolin, lilo',
+    author='zhangruolin, kieslee',
     author_email='lleelm@gmail.com',
     packages=['xlogging'],
     )
