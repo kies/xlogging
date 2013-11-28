@@ -10,7 +10,7 @@ import commands
 import os
 import time
 from multiprocessing import Process,Value,Lock
-from nplogging import log
+from xlogging import log
 
 log.setConfig(module_name='case03',ro_rotateby=1,ro_backupcount=4,ro_maxsize=1024,logfile='test_case03.log',multiprocess=0,viamail=0,mailaddr='lilo@baidu.com')
 
